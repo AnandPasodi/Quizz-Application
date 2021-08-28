@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <title>Qureka@Kopykitab</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1 style="margin: 0;padding: 0;font-size: 20px;">QUREKA</h1>
+        <p style="margin: 0;padding: 0;">Daily Update Test Preparation NewtonSchool</p>
+    </header>
+    <div id="cong-popup" class="congratulations-popup">
+        <div class="congratulations-text">Well Done!!!!! The quiz has ended.</div>
+        <div class="score-text">
+          Your Total Score Is <span id="t-score" class="total-score"></span>
+          <div class="button-wrapper">
+            <button class="restart-button" onclick="window.location.reload()">
+              Restart
+            </button>
+          </div>
+        </div>
+      </div>
+    <div class="score">
+        Score : <span id="scoreValue" class="score-value">0</span>
+    </div>
+    <section id="quiz-section" class="quiz-body-container"></section>
+    <footer>
+        <span>Reach out to us <strong> <a href="mailto: info@kopykitab.com" style="text-decoration: none; color: black;">info@qurekadailyupdate.com</a></strong></span>
+        <span>&copy; <strong> QUREKA 2020</strong> : BY NewtonSchool</span>
+    </footer>
+    <script type="text/javascript" src="data.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
